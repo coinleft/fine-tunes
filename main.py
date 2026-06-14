@@ -1,6 +1,14 @@
-from datasets import load_dataset
-ds = load_dataset("Yelp/yelp_review_full")
-print(ds)
+# import os
+# os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
-train_ds = ds["train"]
-print(train_ds[0])
+# from datasets import load_dataset_builder
+# from datasets import load_dataset
+
+# ds = load_dataset("cornell-movie-review-data/rotten_tomatoes")
+# print(ds)
+
+import pandas as pd
+df = pd.read_csv(
+    "https://huggingface.co/datasets/imodels/credit-card/raw/main/train.csv")
+df = pd.DataFrame(df)
+print(df)
