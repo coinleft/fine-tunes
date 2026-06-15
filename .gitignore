@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+.DS_*
 
 .ipynb_*
 # Virtual environments
