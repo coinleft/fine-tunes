@@ -1,5 +1,5 @@
 # Small Model Fine-tune
-Train model [bert-base-cased](google-bert/bert-base-cased) with dataset [Yelp/yelp_review_full](Yelp/yelp_review_full) 
+Train model [bert-base-cased](https://huggingface.com/google-bert/bert-base-cased) with dataset [Yelp/yelp_review_full](https://huggingface.com/datasets/Yelp/yelp_review_full) 
 
 ## Install
 pip install -r requirement.txt
